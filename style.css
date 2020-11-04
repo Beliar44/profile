@@ -5,6 +5,8 @@ body {
    color :none;
    font-size: 20px;  
    line-height: 1.3;
+   background-image: url(images/background.jpg);
+   background-size: cover;
 }
 h1 {
   color: #16034b;
@@ -19,12 +21,12 @@ h2 {
   font-size : 20px;
   line-height : 1.3;
 }
-a {
+.fab {
   color: #892cdc;
   
 }
 
-a:hover {
+.fab:hover {
   color: #08882e;
   text-decoration: underline;
 }
@@ -59,15 +61,6 @@ a:hover {
 .list-inline {
   list-style: none;
   padding-left: 0px;
-}
-.btn-purple {
-  background-color: #892cdc;
-  color: white;
-  /* padding: 15px 20px; */
-  border-radius: 4px;
-}
-.btn-purple:hover {
-  background-color: #08882e;
 }
 
 @media (max-width: 960px) {
